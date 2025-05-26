@@ -135,9 +135,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`productos_pizzeria` (
 ENGINE = InnoDB;
 
 
--- -----------------------------------------------------
--- Table `mydb`.`Ingredientes_Productos`
--- -----------------------------------------------------
+
 CREATE TABLE IF NOT EXISTS `mydb`.`Ingredientes_Productos` (
   `id_ingredientes` INT NOT NULL AUTO_INCREMENT,
   `nombre_ingrediente` VARCHAR(45) NOT NULL,
@@ -160,9 +158,8 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Ingredientes_Productos` (
 ENGINE = InnoDB;
 
 
--- -----------------------------------------------------
--- Table `mydb`.`Adicionales_pedidos`
--- -----------------------------------------------------
+
+-- -----------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`Adicionales_pedidos` (
   `idAdicionales_pedidos` INT NOT NULL AUTO_INCREMENT,
   `nombre_del_adicional` VARCHAR(45) NOT NULL,
